@@ -1,0 +1,35 @@
+plugins {
+    id 'java-library'
+}
+
+group 'com.sashaus'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    testImplementation(
+            'com.codeborne:selenide:6.12.3',
+            'org.junit.jupiter:junit-jupiter:5.9.2',
+            'com.fasterxml.jackson.core:jackson-databind:2.14.2',
+            'com.fasterxml.jackson.core:jackson-core:2.14.2',
+            'com.codeborne:pdf-test:1.8.1',
+            'com.codeborne:xls-test:1.7.0',
+            'com.opencsv:opencsv:5.7.1',
+            'org.apache.poi:poi:5.1.0'
+    )
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Bilbo",
+  "breed": "Welsh Corgi Pembroke",
+  "age": 5,
+  "ageInHumanYears": 36,
+  "characterValues": ["Clever", "Funny", "Silly", "Grumpy", "Loyal", "Kind", "Mischievous"],
+  "foreignObjectsInDogsStomach": {
+    "piecesOfWallpaper": 3,
+    "smallToy": 1,
+    "dogFood": false,
+    "trashFromTheStreet": true
+  }
+}
